@@ -17,9 +17,9 @@ h1{
 }
 
 header {
-    background-color: darkcyan;
+    background-color: rgb(0, 121, 121);
     display: inline-block;
-    padding: 4em 2em 41em 2em;
+    padding: 4em 2em 100% 2em;
     
 }
 
@@ -29,37 +29,61 @@ main{
 
 h2{
     padding-bottom: 40px;
+    padding-right: 40px;
     
 }
 
 section div{
     background-color: lightgray;
-    flex-wrap: wrap;
     box-shadow: 0 0 2px;
+    padding: 14px;
+    border-bottom: 6em solid white;
+     
     
 }
 
+
 figure {
-    background-color: white;
-    padding: 2em 2em 20px;
+    padding: 2em 3em 25px 5em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    
     
 }
 
 section{
     display: flex;
-    float: left;
+    flex-wrap: wrap;
+    gap: 2em;
     
 }
 
 header nav ol a{
     text-decoration: none;
-    color: white;    
+    color: white;   
+    padding-bottom: 4em;
+
+     
 
 }
 
-form nav a {
+header nav li{
+    padding-bottom: 14px;
+
+}
+
+
+header nav ol{
+    list-style-type: none;
+
+}
+
+form nav {
     color: purple;
-    padding-left: 56em;
+    margin: 0 auto;
+    padding-left: 90%;
+    
 }
 
 
