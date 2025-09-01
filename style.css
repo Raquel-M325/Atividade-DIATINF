@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+
+}
+
+form{
+    padding-bottom: 1em;
+    padding-left: 1em;
+   
+}
+
+h1{
+    padding: 0 0 2em;
+}
+
+h2{
+    padding-left: 0.7em;
+}
+
+header {
+    background-color: rgb(0, 121, 121);
+    padding: 4em 2em 100% 2em;
+    
+}
+
+main{
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 85rem;
+    
+}
+
+
+section div{
+    box-shadow: 0 0 2px;
+    margin: 0 auto;
+    flex-basis: 15%;
+}
+
+figure {
+    padding: 2em 2em 25px 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 11rem;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+
+}
+
+section h2{
+    flex-basis: 100%;
+
+}
+
+header nav ol a{
+    text-decoration: none;
+    color: white;   
+    padding-bottom: 4em;
+
+}
+
+header nav li{
+    padding-bottom: 14px;
+
+}
+
+
+header nav ol{
+    list-style-type: none;
+    
+}
+
+form nav a{
+    color: purple;
+    margin: 0 auto;
+    padding-left: 89%;   
+    
+}
+
+p{
+    padding-bottom: 5em;
+    background-color: rgb(224, 224, 224) ;
+    text-align: center;
+    padding-top: 1em;
+
+}
+
+p a{
+    color: purple;
+}
+
+
+
+
+
+
