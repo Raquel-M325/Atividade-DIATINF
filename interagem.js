@@ -1,9 +1,17 @@
 const cards = document.querySelectorAll('.relatorio');
 
-cards.addEventListener('mouseover', function() {
-    cards.classList.add('relatorio','menu');
-});
+const menus = document.querySelectorAll('.menu');
 
-cards.addEventListener('mouseout', function() {
-    cards.classList.remove('relatorio','menu');
+const elementos = [...cards, ...menus];
+
+elementos.forEach(function(elemento) {
+    elemento.addEventListener('mouseover', function() {
+        elemento.classList.add('relatorio','menu');
+    });
+
+
+    elemento.addEventListener('mouseout', function() {
+        elemento.classList.remove('relatorio','menu');
+    });
+
 });
