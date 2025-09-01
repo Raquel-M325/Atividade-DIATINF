@@ -102,6 +102,15 @@ p a{
 }
 
 
+.relatorio {
+    transform: translateY(-20px); 
+}
+
+.menu {
+    transform: translateY(-20px); 
+
+}
+
 
 
 
